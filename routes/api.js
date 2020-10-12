@@ -3,7 +3,7 @@ const path = require('path');
 const shortid = require('shortid');
 const fs = require('fs').promises;
 
-const apiRouter = express.Router();
+const api = express.Router();
 
 const dbFilePath = path.resolve(__dirname, '..', 'db', 'db.json');
 
@@ -14,13 +14,13 @@ async function readData() {
 	return data;
 }
 
-apiRouter.get('/notes', async (_, res) => {
+api.get('/notes', async (_, res) => {
 	const data = await readData();
 
 	res.json(Object.values(data));
 });
 
-apiRouter.post('/notes', async (req, res) => {
+api.post('/notes', async (req, res) => {
 	const data = await readData();
 
 	const { title, text } = req.body;
@@ -40,7 +40,7 @@ apiRouter.post('/notes', async (req, res) => {
 	});
 });
 
-apiRouter.delete('/notes/:id', async (req, res) => {
+api.delete('/notes/:id', async (req, res) => {
 	let data = await readData();
 
 	const noteId = req.params.id;
@@ -56,4 +56,4 @@ apiRouter.delete('/notes/:id', async (req, res) => {
 	});
 });
 
-module.exports = apiRouter;
+module.exports = api;

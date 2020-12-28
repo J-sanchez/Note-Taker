@@ -5,7 +5,9 @@ const fs = require('fs').promises;
 
 const api = express.Router();
 
-const dbFilePath = path.resolve(__dirname, '..', 'db', 'db.json');
+const dbFilePath = path.resolve(__dirname, '..','Develop', 'db', 'db.json');
+
+const notesData = require("../Develop/db/db.json");
 
 async function readData() {
 	const fileData = await fs.readFile(dbFilePath, 'utf-8');

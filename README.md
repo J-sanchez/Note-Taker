@@ -1,6 +1,6 @@
 # Project Title : NoteTaker
 ## Project Description:
-This application allows the user to take notes and add tasks to a "notepad" it also allows the user to delete past notes. 
+This application application allows a user to create notes and save. This application was created to aid as a 'notepad'.  
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -13,7 +13,7 @@ This application allows the user to take notes and add tasks to a "notepad" it a
 ## Installation
 Clone the project and or visit the link
 ## Usage
-N/A
+![Video of Usage](./public/assets/img/walkaround.gif)
 ## Contributors
 Jcsanchez
 ## If you wish to contribute

@@ -7,9 +7,7 @@ This application application allows a user to create notes and save. This applic
 * [Contributing](#contributing)
 * [Test](#test)
 * [Questions](#questions)
-* [License](#license)
 * [Author] (#Author)
-* [Badges](#badges)
 ## Installation
 Clone the project and or visit the link
 ## Usage
@@ -20,8 +18,6 @@ Jcsanchez
 Not at this time
 ## Questions
 If you have any questions, contact J-Sanchez on GitHub.
-## License
-GNU AGPLv3
 ## Test
 N/A
 ### Contact Me

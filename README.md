@@ -12,6 +12,7 @@ This application application allows a user to create notes and save. This applic
 Clone the project and or visit the link
 ## Usage
 ![Video of Usage](./public/assets/img/walkaround.gif)
+View Deployed Application: https://note-taker-ch.herokuapp.com/
 ## Contributors
 Jcsanchez
 ## If you wish to contribute
